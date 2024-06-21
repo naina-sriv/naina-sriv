@@ -1,4 +1,4 @@
-## Hi there 👋
+## Hi there 👋 I am Naina Srivastava. I am currently learning front-end development.
 
 <!--
 **naina-sriv/naina-sriv** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
