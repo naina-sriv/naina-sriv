@@ -1,6 +1,6 @@
 ## Hi there 👋 I am Naina Srivastava.
 - 🌱 I’m currently learning frontend development.
-- 🌹 I'm interested in Fullstacks, AI ML, and AR VR.
+- 🌹 I'm interested in Web3 and AI ML and CyberSecurity.
 
 
 <!--
