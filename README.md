@@ -1,5 +1,5 @@
 ## Hi there 👋 I am Naina Srivastava.
-- 🌱 I’m currently learning frontend development.
+- 🌱 I’m currently learning Solidity.
 - 🌹 I'm interested in Web3 and AI ML and CyberSecurity.
 
 
