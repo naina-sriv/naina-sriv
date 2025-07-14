@@ -1,4 +1,4 @@
-## Hi there 👋 I am Naina Srivastava.
+## Hi there 👋 I am Naina Srivastava, scholar@shefi14
 - 🌱 I’m currently learning Solidity.
 - 🌹 I'm interested in Web3 and AI ML and CyberSecurity.
 
