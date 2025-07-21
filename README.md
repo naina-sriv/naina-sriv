@@ -1,6 +1,8 @@
 ## Hi there 👋 I am Naina Srivastava, scholar@shefi14
 - 🌱 I’m currently learning Solidity.
 - 🌹 I'm interested in Web3 and AI ML and CyberSecurity.
+- 🔭 I’m currently studying from Cyfrin updraft
+  
 
 
 <!--
@@ -8,7 +10,7 @@
 
 Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
+
 - 👯 I’m looking to collaborate on ...
 - 🤔 I’m looking for help with ...
 - 💬 Ask me about ...
