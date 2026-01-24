@@ -1,7 +1,7 @@
-## Hi there 👋 I am Naina Srivastava, scholar@shefi14
-- 🌱 I’m currently learning Solidity.
+## Hi there 👋 I am Naina Srivastava, scholar@shefi14, fellow@dev3pack
+- 🌱 I’m currently learning Backend from Boot.dev (https://www.boot.dev/u/darklyamused)
 - 🌹 I'm interested in Web3 and AI ML.
-- 🔭 I’m currently learning from Cyfrin updraft.
+- 🔭 I’m also currently performing a sidequest by learning from Cyfrin updraft.
   
 
 
