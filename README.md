@@ -1,5 +1,5 @@
 ## Hi there 👋 I am Naina Srivastava, scholar@shefi14, fellow@dev3pack
-- 🌱 I’m currently learning Backend from Boot.dev (https://www.boot.dev/u/darklyamused) and all things data from datacamp (datacamp.com/portfolio/naina-sriv)
+- 🌱 I’m currently learning Backend from Boot.dev (https://www.boot.dev/u/darklyamused) and all things data from datacamp (https://www.datacamp.com/portfolio/naina-sriv)
 
 
 
