@@ -19,7 +19,7 @@
 
 <h3>
   <img src="https://cdn.simpleicons.org/fastapi/009688" width="20" height="20" align="center" /> 
-  FlashSaleX – Distributed E-Commerce & Event Processing
+  FlashSaleX – Engine (Sync) + Relay (Async Dispatcher)
 </h3>
 
 <p>
@@ -33,14 +33,27 @@
 </p>
 
 <p>
-  A production-grade, event-driven platform split into two collaborating microservices:
-  <ul>
-    <li><b>Engine</b> handles 10k+ RPS synchronous checkout with Redis atomic locks and JWT auth.</li>
-    <li><b>Relay</b> manages asynchronous, fault-tolerant event delivery (emails, webhooks) using the <b>Transactional Outbox pattern</b>, Redis Streams Pub/Sub, and Circuit Breakers.</li>
-    <li>Integrated Stripe payments with Redis <code>SETNX</code> idempotency locks for exactly-once settlement.</li>
-    <li>Instrumented with OpenTelemetry + Jaeger for end-to-end distributed tracing.</li>
-  </ul>
-  <a href="https://github.com/naina-sriv/flash-sale-engine">🔗 Repository</a>
+  An event‑driven platform split into two collaborating microservices for high‑throughput checkout and fault‑tolerant notification delivery.
+</p>
+
+<ul>
+  <li>
+    <b>Engine (Critical Path)</b> – Handles 10k+ RPS synchronous checkout with FastAPI async, Redis atomic <code>DECR</code> inventory locking, and Nginx load balancing (&lt;50ms p99 latency). Integrates Stripe synchronous authorization.
+  </li>
+  <li>
+    <b>Relay (Async Path)</b> – Consumes events from the Engine's Outbox. Implements <b>Transactional Outbox</b> for zero data loss, Redis Streams Pub/Sub for horizontal worker scaling, and <b>Circuit Breakers</b> with Exponential Backoff to isolate failing third‑party APIs.
+  </li>
+  <li>
+    <b>Payment Pipeline</b> – Dual‑phase Stripe integration: synchronous auth for immediate feedback, plus asynchronous webhook ingestion with Redis <code>SETNX</code> idempotency locks to guarantee exactly‑once settlement.
+  </li>
+  <li>
+    <b>Observability</b> – Containerized with Docker Compose and instrumented with OpenTelemetry + Jaeger for distributed tracing across Engine → Outbox → Relay → Egress.
+  </li>
+</ul>
+
+<p>
+  🔗 <a href="https://github.com/naina-sriv/flash-sale-engine">Engine Repository</a> · 
+  🔗 <a href="https://github.com/naina-sriv/relay-dispatcher">Relay Repository</a>
 </p>
 
 <hr />
