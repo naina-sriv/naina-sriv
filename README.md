@@ -38,7 +38,7 @@
 
 <ul>
   <li>
-    <b>Engine (Critical Path)</b> – Handles 10k+ RPS synchronous checkout with FastAPI async, Redis atomic <code>DECR</code> inventory locking, and Nginx load balancing (&lt;50ms p99 latency). Integrates Stripe synchronous authorization.
+    <b>Engine – Handles 10k+ RPS checkout with FastAPI async and Redis atomic DECR, with synchronous Stripe authorization (typical latency ~300ms).
   </li>
   <li>
     <b>Relay (Async Path)</b> – Consumes events from the Engine's Outbox. Implements <b>Transactional Outbox</b> for zero data loss, Redis Streams Pub/Sub for horizontal worker scaling, and <b>Circuit Breakers</b> with Exponential Backoff to isolate failing third‑party APIs.
