@@ -77,7 +77,7 @@
   <li>Developed a Leaflet.js SPA with draggable markers, reverse geocoding, and color-coded multi-vehicle visualizations.</li>
   <li>Containerized the full stack with Docker Compose for self-hosted, zero-cost deployment.</li>
 </ul>
-<a href="https://github.com/naina-sriv/RouteIQ">🔗 Repository</a> <a href="https://routeiq-5drc.onrender.com/"> Demo</a>
+<a href="https://github.com/naina-sriv/RouteIQ">🔗 Repository</a> <a href="https://routeiq-5drc.onrender.com/"> 🔗Demo</a>
 
 <hr />
 
