@@ -243,24 +243,6 @@
 <p>
   <a href="https://github.com/naina-sriv/profilr-backend">Repository</a>
 </p>
-
-<hr />
-
-<h3>
-  <img src="https://cdn.simpleicons.org/python/3776AB" width="20" height="20" align="center" /> 
-  Asteroids Game
-</h3>
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
-</p>
-
-<p>
-  Classic Asteroids arcade game built in Python.
-  <br />
-  <a href="https://github.com/naina-sriv/asteroids-game">Repository</a>
-</p>
-
 <hr />
 
 <h2>Tech Stack</h2>
