@@ -58,7 +58,7 @@
 
 <hr />
 
-<h2>Projects</h2>
+<h2>Project Highlights</h2>
 
 <h3>
   <img src="https://cdn.simpleicons.org/fastapi/009688" width="20" height="20" align="center" /> 
@@ -114,33 +114,6 @@
 <p>
   <a href="https://github.com/naina-sriv/RouteIQ">Repository</a> · 
   <a href="https://routeiq-5drc.onrender.com/">Demo</a>
-</p>
-
-<hr />
-
-<h3>
-  <img src="https://cdn.simpleicons.org/ai/FF6F00" width="20" height="20" align="center" /> 
-  ParivartanAI – AI Legal Aid Backend
-</h3>
-
-<p>
-  <img src="https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi" />
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQLAlchemy-FF4F8B?style=flat&logo=sqlalchemy&logoColor=white" />
-  <img src="https://img.shields.io/badge/Google%20Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white" />
-  <img src="https://img.shields.io/badge/gRPC-4285F4?style=flat&logo=google&logoColor=white" />
-  <img src="https://img.shields.io/badge/AWS%20EC2-FF9900?style=flat&logo=amazonaws&logoColor=white" />
-</p>
-
-<ul>
-  <li>Built an end-to-end ETL pipeline processing legal documents: PDF → text extraction → cleaning → chunking → AI summarization (Gemini API with Groq fallback).</li>
-  <li>Designed a PostgreSQL schema with SQLAlchemy ORM for document storage, pipeline state tracking, and history retrieval.</li>
-  <li>Implemented an internal <b>gRPC microservice</b> layer for service-to-service communication.</li>
-  <li>Deployed on AWS EC2 with GitHub Actions CI/CD.</li>
-</ul>
-
-<p>
-  <a href="https://github.com/naina-sriv/parivartan-legal">Repository</a>
 </p>
 
 <hr />
