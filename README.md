@@ -36,20 +36,6 @@
   A bot-free, enterprise-grade Meeting Copilot that captures live desktop audio from native apps (Discord, Zoom) and provides real-time transcriptions and AI summaries.
 </p>
 
-<ul>
-  <li><b>Universal Audio Capture:</b> Hooks into system audio using <code>chrome.desktopCapture</code> and Manifest V3 Offscreen Documents.</li>
-  <li><b>Backpressure Mitigation:</b> Uses asyncio queues to handle 100ms binary streams without blocking the event loop.</li>
-  <li><b>High-Throughput Deduplication:</b> Employs Redis Sorted Sets for transient consensus, inherently dropping duplicate uploads.</li>
-  <li><b>Memory Optimization:</b> Designed "Eviction Cascades" to move older transcripts from Redis to Qdrant vector DB for long-term semantic retrieval.</li>
-  <li><b>Stateless Security:</b> Implements Discord-driven JWT RBAC, baking permissions into the token to avoid database lookups.</li>
-</ul>
-
-<p>
-  <a href="https://github.com/naina-sriv/catch-me-up">Repository</a>
-</p>
-
-<hr />
-
 <h3>
   <img src="https://cdn.simpleicons.org/fastapi/009688" width="20" height="20" align="center" /> 
   Relay – Async Dispatcher (Part of FlashSaleX)
@@ -66,13 +52,6 @@
   Standalone microservice that guarantees at-least-once delivery of asynchronous workflows (emails, webhooks, Slack alerts) using the <b>Transactional Outbox</b> pattern.
 </p>
 
-<ul>
-  <li>Consumes events from the Engine's Outbox with zero data loss.</li>
-  <li>Implements Redis Streams Pub/Sub for horizontal worker scaling.</li>
-  <li>Features <b>Circuit Breakers</b> with Exponential Backoff to isolate failing third‑party APIs.</li>
-  <li>Built to decouple critical systems from unreliable downstream services.</li>
-</ul>
-
 <p>
   <a href="https://github.com/naina-sriv/relay-dispatcher">Repository</a>
 </p>
@@ -80,37 +59,6 @@
 <hr />
 
 <h2>Projects</h2>
-
-<h3>
-  <img src="https://cdn.simpleicons.org/ai/FF6F00" width="20" height="20" align="center" /> 
-  AI Interviewer – Real-Time Voice Conversational AI
-</h3>
-
-<p>
-  <img src="https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white" />
-  <img src="https://img.shields.io/badge/Groq-0040A1?style=flat&logo=groq&logoColor=white" />
-  <img src="https://img.shields.io/badge/Qdrant-EE4C2C?style=flat&logo=qdrant&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white" />
-</p>
-
-<p>
-  A real-time, voice-conversational AI Interviewer that reads resumes, generates tailored questions using RAG from a company-specific database, and dynamically follows up on answers.
-</p>
-
-<ul>
-  <li><b>Voice Loop:</b> Handles full voice conversation with browser-native STT/TTS, silence detection (3-second debounce), and keep-alive mechanisms to prevent browser API bugs.</li>
-  <li><b>State Management:</b> Uses Upstash Redis to persist session state across stateless Vercel serverless functions.</li>
-  <li><b>RAG Pipeline:</b> Integrates Qdrant vector DB with metadata filtering for company-specific question retrieval and structured JSON output constraints.</li>
-  <li><b>Low-Latency Inference:</b> Leverages Groq (Llama 3.3 70B) for ultra-fast LLM inference at ~800 tokens/second.</li>
-</ul>
-
-<p>
-  <a href="https://github.com/naina-sriv/ai_interviewer">Repository</a>
-</p>
-
-<hr />
 
 <h3>
   <img src="https://cdn.simpleicons.org/fastapi/009688" width="20" height="20" align="center" /> 
