@@ -52,10 +52,6 @@
   Standalone microservice that guarantees at-least-once delivery of asynchronous workflows (emails, webhooks, Slack alerts) using the <b>Transactional Outbox</b> pattern.
 </p>
 
-<p>
-  <a href="https://github.com/naina-sriv/relay-dispatcher">Repository</a>
-</p>
-
 <hr />
 
 <h2>Project Highlights</h2>
