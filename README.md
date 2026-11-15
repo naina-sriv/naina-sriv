@@ -202,7 +202,6 @@
 <h2>GitHub Activity &amp; Stats</h2>
 
 <p align="center">
-  <img height="175" src="https://github-readme-stats.vercel.app/api?username=naina-sriv&show_icons=true&count_private=true&include_all_commits=true&theme=transparent&hide_border=true" />
   <img height="175" src="https://streak-stats.demolab.com?user=naina-sriv&theme=transparent&hide_border=true" />
 </p>
 
