@@ -114,55 +114,7 @@
 
 <hr />
 
-<h3>
-  <img src="https://cdn.simpleicons.org/clerk/6C47FF" width="20" height="20" align="center" /> 
-  For The People (FTP) – Civic Issue Reporting
-</h3>
-
-<p>
-  <img src="https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi" />
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/JWT-000000?style=flat&logo=jsonwebtokens&logoColor=white" />
-</p>
-
-<ul>
-  <li>A constituency-bound platform where citizens report issues that get automatically escalated once they cross a community vote threshold.</li>
-  <li>Built with JWT-based authentication scoped to constituencies, ensuring zero cross-constituency noise.</li>
-  <li>Async background tasks handle vote-counting and escalation without blocking the API.</li>
-</ul>
-
-<p>
-  <a href="https://github.com/naina-sriv/ftp">Repository</a>
-</p>
-
-<hr />
-
-<h3>
-  <img src="https://cdn.simpleicons.org/scikitlearn/F7931E" width="20" height="20" align="center" /> 
-  Profilr – CSV Data Profiling Pipeline
-</h3>
-
-<p>
-  <img src="https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi" />
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white" />
-</p>
-
-<ul>
-  <li>A FastAPI + Streamlit data pipeline that ingests CSV files and generates structured JSON reports with:
-    <ul>
-      <li>Missing value analysis, outlier detection (IQR), correlation matrices, duplicate detection.</li>
-      <li>Auto encoding detection and dataset overview.</li>
-    </ul>
-  </li>
-  <li>Frontend built with Streamlit for interactive data exploration.</li>
-</ul>
-
-<p>
-  <a href="https://github.com/naina-sriv/profilr-backend">Repository</a>
-</p>
-
-<hr />
+</hr>
 
 <h2>Tech Stack</h2>
 
