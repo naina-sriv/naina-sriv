@@ -206,7 +206,7 @@
 </p>
 
 <p>
-  <sub><b>Note on Contributions:</b> My primary engineering work from August–November 2026 during my full-time internship (Python, FastAPI, TypeScript/Next.js, SQL) was hosted in private enterprise Bitbucket repositories. Private contributions reflected in my activity graph mirror those real commit timelines without exposing proprietary code.</sub>
+  <b>Note on Contributions:</b> My primary engineering work from August–November 2026 during my full-time internship (Python, FastAPI, TypeScript/Next.js, SQL) was hosted in private enterprise Bitbucket repositories. Private contributions reflected in my activity graph mirror those real commit timelines without exposing proprietary code.
 </p>
 
 <hr />
