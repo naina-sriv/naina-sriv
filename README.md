@@ -149,17 +149,19 @@
 </p>
 
 <ul>
-  <li>A FastAPI + Streamlit data pipeline that ingests CSV files and generates structured JSON reports with:</li>
-  <ul>
-    <li>Missing value analysis, outlier detection (IQR), correlation matrices, duplicate detection.</li>
-    <li>Auto encoding detection and dataset overview.</li>
-  </ul>
+  <li>A FastAPI + Streamlit data pipeline that ingests CSV files and generates structured JSON reports with:
+    <ul>
+      <li>Missing value analysis, outlier detection (IQR), correlation matrices, duplicate detection.</li>
+      <li>Auto encoding detection and dataset overview.</li>
+    </ul>
+  </li>
   <li>Frontend built with Streamlit for interactive data exploration.</li>
 </ul>
 
 <p>
   <a href="https://github.com/naina-sriv/profilr-backend">Repository</a>
 </p>
+
 <hr />
 
 <h2>Tech Stack</h2>
@@ -194,6 +196,19 @@
     <td>Async I/O, Outbox Pattern, Circuit Breakers, Idempotency, Distributed Systems, ETL Pipelines, RAG, Vector Databases</td>
   </tr>
 </table>
+
+<hr />
+
+<h2>GitHub Activity &amp; Stats</h2>
+
+<p align="center">
+  <img height="175" src="https://github-readme-stats.vercel.app/api?username=naina-sriv&show_icons=true&count_private=true&include_all_commits=true&theme=transparent&hide_border=true" />
+  <img height="175" src="https://streak-stats.demolab.com?user=naina-sriv&theme=transparent&hide_border=true" />
+</p>
+
+<p>
+  <sub><b>Note on Contributions:</b> My primary engineering work from August–November 2026 during my full-time internship (Python, FastAPI, TypeScript/Next.js, SQL) was hosted in private enterprise Bitbucket repositories. Private contributions reflected in my activity graph mirror those real commit timelines without exposing proprietary code.</sub>
+</p>
 
 <hr />
 
